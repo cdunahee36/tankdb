@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/01/tank-wallpapers-20.jpg");
+  background-image: url("https://lh3.googleusercontent.com/proxy/MuGrP7W8sZIIq9A-JdMQfIYeqt200lfVDK0ea6ZRPJ98tw6j6o_hOLsDmP_ORvQrnIcEKFCvBl5von_tb54m6WNXasPzhR1g4tFFy5z_9OTaXzJR9ZMyIBeQk1itb27nZveHdB37w83bQ09aVQyRCqwzLXC4wDKx7ih2Cg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -42,3 +42,13 @@ p span {
   border: 3px solid #b29d69;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  height: 55px;
+  bottom: 0;
+  width: 100%;
+  background-color: #4b5320;
+  border: 3px solid #b29d69;
+  text-align: center;
+}

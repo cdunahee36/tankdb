@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div>
       <nav class="navbar navbar-light" id="nav-color">
-          <Link class="navbar-brand" to="/">
+          <Link class="navbar-brand" to="/home">
             <p><span>Home</span></p>
           </Link>
           <section class="navbar-center">
