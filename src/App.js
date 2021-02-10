@@ -4,6 +4,10 @@ import About from './components/About.js';
 import Home from './components/Home.js';
 import Nav from './components/Nav.js';
 import Footer from './components/Footer.js';
+import { useState, useEffect } from 'react';
+
+const [tankName, getTankName] = useState({})
+const [tankWeight, getTankWeight] = useState({})
 
 function App() {
   return (
