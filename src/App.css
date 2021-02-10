@@ -1,5 +1,18 @@
+.about-box {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-body {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 body {
-  background-image: url("https://lh3.googleusercontent.com/proxy/MuGrP7W8sZIIq9A-JdMQfIYeqt200lfVDK0ea6ZRPJ98tw6j6o_hOLsDmP_ORvQrnIcEKFCvBl5von_tb54m6WNXasPzhR1g4tFFy5z_9OTaXzJR9ZMyIBeQk1itb27nZveHdB37w83bQ09aVQyRCqwzLXC4wDKx7ih2Cg");
+  background-image: url("https://www.drivetanks.com/wp-content/uploads/2016/05/Tank-Background-02-1920x1080-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -21,7 +34,7 @@ h3 span {
   border: 3px solid #FFE5B4;
 }
 
-p span {
+p span, h4 span{
   display: flex;
   align-items: center;
   font-family: 'Anton', sans-serif;
