@@ -7,9 +7,6 @@ function Nav() {
           <Link class="navbar-brand" to="/home">
             <p><span class="nav-bg">Home</span></p>
           </Link>
-          <Link class="navbar-brand" to="/search">
-            <p><span class="nav-bg">search</span></p>
-          </Link>
           <Link class="navbar-brand" to="/about">
             <p><span class="nav-bg">About</span></p>
           </Link>

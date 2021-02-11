@@ -5,6 +5,7 @@ import About from './components/About.js';
 import Home from './components/Home.js';
 import Nav from './components/Nav.js';
 import Tanklist from './components/Tanklist.js';
+import TankSelect from './components/TankSelect.js';
 import Footer from './components/Footer.js';
 import { tankData } from './data/tankData';
 
@@ -14,9 +15,22 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/home" exact component={() => <Home />} />
-          <Route path="/search" exact component={() => <Tanklist tanks={tankData} />} />
-          <Route path="/about" exact component={() => <About />} />
+          <Route path="/home">
+            <Home />
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                <Tanklist tanks={tankData}/>
+                </div>
+                <div class="col-sm">
+                <TankSelect />
+                </div>
+              </div>
+            </div>
+          </Route>
+          <Route path="/about">
+            <About/>
+          </Route>
         </Switch>
         <Footer />
       </Router>
