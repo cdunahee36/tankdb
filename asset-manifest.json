@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/tankdb/static/css/main.986b1a62.chunk.css",
-    "main.js": "/tankdb/static/js/main.9020cdbf.chunk.js",
-    "main.js.map": "/tankdb/static/js/main.9020cdbf.chunk.js.map",
+    "main.css": "/tankdb/static/css/main.114e2263.chunk.css",
+    "main.js": "/tankdb/static/js/main.f440d232.chunk.js",
+    "main.js.map": "/tankdb/static/js/main.f440d232.chunk.js.map",
     "runtime-main.js": "/tankdb/static/js/runtime-main.c228657d.js",
     "runtime-main.js.map": "/tankdb/static/js/runtime-main.c228657d.js.map",
     "static/css/2.658248ec.chunk.css": "/tankdb/static/css/2.658248ec.chunk.css",
-    "static/js/2.1b7fd138.chunk.js": "/tankdb/static/js/2.1b7fd138.chunk.js",
-    "static/js/2.1b7fd138.chunk.js.map": "/tankdb/static/js/2.1b7fd138.chunk.js.map",
+    "static/js/2.94ee3392.chunk.js": "/tankdb/static/js/2.94ee3392.chunk.js",
+    "static/js/2.94ee3392.chunk.js.map": "/tankdb/static/js/2.94ee3392.chunk.js.map",
     "static/js/3.baf86d0a.chunk.js": "/tankdb/static/js/3.baf86d0a.chunk.js",
     "static/js/3.baf86d0a.chunk.js.map": "/tankdb/static/js/3.baf86d0a.chunk.js.map",
     "index.html": "/tankdb/index.html",
     "static/css/2.658248ec.chunk.css.map": "/tankdb/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.986b1a62.chunk.css.map": "/tankdb/static/css/main.986b1a62.chunk.css.map",
-    "static/js/2.1b7fd138.chunk.js.LICENSE.txt": "/tankdb/static/js/2.1b7fd138.chunk.js.LICENSE.txt"
+    "static/css/main.114e2263.chunk.css.map": "/tankdb/static/css/main.114e2263.chunk.css.map",
+    "static/js/2.94ee3392.chunk.js.LICENSE.txt": "/tankdb/static/js/2.94ee3392.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c228657d.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.1b7fd138.chunk.js",
-    "static/css/main.986b1a62.chunk.css",
-    "static/js/main.9020cdbf.chunk.js"
+    "static/js/2.94ee3392.chunk.js",
+    "static/css/main.114e2263.chunk.css",
+    "static/js/main.f440d232.chunk.js"
   ]
 }
