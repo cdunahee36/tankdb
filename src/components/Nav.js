@@ -5,13 +5,13 @@ function Nav() {
     <div>
       <nav class="navbar navbar-light" id="nav-color">
           <Link class="navbar-brand" to="/home">
-            <p><span>Home</span></p>
+            <p><span class="nav-bg">Home</span></p>
           </Link>
-          <section class="navbar-center">
-            <img src="https://freepngimg.com/download/military_tank/4-2-tank-png-pic.png" id="tank-icon"></img>
-          </section>
+          <Link class="navbar-brand" to="/search">
+            <p><span class="nav-bg">search</span></p>
+          </Link>
           <Link class="navbar-brand" to="/about">
-            <p><span>About</span></p>
+            <p><span class="nav-bg">About</span></p>
           </Link>
       </nav>
     </div>
