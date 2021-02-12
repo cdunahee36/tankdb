@@ -1,7 +1,6 @@
-function TankSelect(props) {
+function TankSelect() {
 
   return <div>
-    <p>hellotherer</p>
   </div>
   
 }

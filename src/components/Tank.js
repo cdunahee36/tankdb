@@ -1,7 +1,7 @@
 function Tank(props) {
  
   return <div>
-    <button class="dta-btns">{props.Name}</button>
+    <button onClick={() => props.addTank(props.id)} class="dta-btns">{props.Name}</button>
   </div>
   
 }
