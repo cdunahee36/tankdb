@@ -4,6 +4,21 @@
   margin-right: 40px;
 }
 
+.display-text {
+  border: 3px solid #FFE5B4;
+  background-color: #4b5320;
+  font-family: 'Anton', sans-serif;
+  color: #FFE5B4;
+  width: 180px;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+#Ui {
+  display: flex;
+  justify-content: center;
+}
+
 .about-body {
   display: flex;
   justify-content: center;
@@ -14,6 +29,10 @@
   background-color: #4b5320;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 105px;
 }
 

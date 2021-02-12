@@ -4,22 +4,17 @@ import React, { useState, useEffect } from 'react';
 import About from './components/About.js';
 import Home from './components/Home.js';
 import Nav from './components/Nav.js';
-import Tanklist from './components/Tanklist.js';
+import Tank from './components/Tank.js';
 import TankSelect from './components/TankSelect.js';
 import Footer from './components/Footer.js';
-import { tankData } from './data/tankData';
+import tankData from './data/tankData.json';
 
 function App() {
-  const [chosenTank, disTank] = useState([])
+  const [chosenTank, disTank] = useState("");
 
-  const addTank = (id) => {
-    const getTank = tankData.find(tank => tank.id === id)
-    console.log('Tank', getTank)
-    const updatedTank = chosenTank.slice()
-    updatedTank.push(getTank)
-    disTank(updatedTank)
-    console.log(updatedTank)
-  }
+  const displayTank = Name => {
+    disTank(Name);
+  };
 
   return (
     <div className="App">
@@ -28,13 +23,27 @@ function App() {
         <Switch>
           <Route path="/home">
             <Home />
-            <div class="container">
+            <div class="container" id="Ui">
               <div class="row">
-                <div class="col-sm">
-                <Tanklist tanks={tankData} addTank={addTank} />
+                <div class="col-sm" id="tank-list">
+                  {tankData.map(tank => {
+                  return (
+                  <Tank
+                    id={tank.id}
+                    Name={tank.name}
+                    Weight={tank.weight}
+                    Length={tank.length}
+                    Size={tank.size}
+                    Type={tank.type}
+                    Count={tank.country}
+                    Img={tank.img}
+                    displayTank={displayTank}
+                  />
+                  );
+                  })}
                 </div>
                 <div class="col-sm">
-                <TankSelect chosenTank={chosenTank[0]}/>
+                <TankSelect chosenTank={chosenTank}/>
                 </div>
               </div>
             </div>
