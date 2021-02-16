@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# tank data
+/src/data
+
 # testing
 /coverage
 
