@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-     <footer class="footer"></footer>
+     <footer class="footer"><p class="email">Email: dunahee10@gmail.com</p></footer>
     </div>
   )
 };
