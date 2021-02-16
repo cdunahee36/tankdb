@@ -4,14 +4,27 @@
   margin-right: 40px;
 }
 
+#logos {
+  margin-top: -16px;
+}
+
 .display-text {
-  border: 3px solid #FFE5B4;
-  background-color: #4b5320;
+  background-color: #FFE5B4;
   font-family: 'Anton', sans-serif;
-  color: #FFE5B4;
-  width: 180px;
+  color: #4b5320;
   font-size: 25px;
   margin-bottom: 100px;
+}
+
+.display-text2 {
+  font-family: 'Anton', sans-serif;
+  color: #FFE5B4;
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+#pic {
+  border: 2px solid #FFE5B4;
 }
 
 #Ui {
@@ -24,13 +37,35 @@
   justify-content: center;
 }
 
+.img {
+  height: 230px;
+  width: 330px;
+}
+
+
+
 #tank-list {
   border: 3px solid #FFE5B4;
   background-color: #4b5320;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-height: 400px;
+  overflow: scroll;
+  max-height: 350px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 105px;
+}
+
+.overflow {
+  border: 3px solid #FFE5B4;
+  background-color: #4b5320;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  max-height: 350px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 105px;
@@ -54,7 +89,7 @@
 
 
 body {
-  background-image: url("https://www.drivetanks.com/wp-content/uploads/2016/05/Tank-Background-02-1920x1080-1.jpg");
+  background-image: url("https://wallpaperaccess.com/full/946802.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -69,11 +104,23 @@ body {
   margin: 25px 25px;
 }
 
+.home-title2 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 25px 25px;
+}
+
 h3 span {
   font-family: 'Anton', sans-serif;
   color: #FFE5B4;
   background-color: #b29d69;
   border: 3px solid #FFE5B4;
+}
+
+.home-title2 span {
+  background-color: #4b5320;
 }
 
 .span-text {

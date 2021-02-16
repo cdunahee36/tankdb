@@ -8,6 +8,7 @@ import Tank from './components/Tank.js';
 import TankSelect from './components/TankSelect.js';
 import Footer from './components/Footer.js';
 import tankData from './data/tankData.json';
+import Tankspic from './components/Tankpics.js';
 
 function App() {
   const [chosenTank, disTank] = useState("");
@@ -25,15 +26,21 @@ function App() {
             <Home />
             <div class="container" id="Ui">
               <div class="row">
+                <div class="col-sm">
+                <TankSelect chosenTank={chosenTank}/>
+                </div>
                 <div class="col-sm" id="tank-list">
-                  {tankData.map(tank => {
+                {tankData.map(tank => {
                   return (
                   <Tank
                     id={tank.id}
                     Name={tank.name}
                     Weight={tank.weight}
                     Length={tank.length}
+                    Width={tank.width}
+                    Height={tank.height}
                     Size={tank.size}
+                    Speed={tank.speed}
                     Type={tank.type}
                     Count={tank.country}
                     Img={tank.img}
@@ -43,7 +50,7 @@ function App() {
                   })}
                 </div>
                 <div class="col-sm">
-                <TankSelect chosenTank={chosenTank}/>
+                  <Tankspic />
                 </div>
               </div>
             </div>
