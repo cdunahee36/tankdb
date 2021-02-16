@@ -6,7 +6,7 @@
 .pnp.js
 
 # tank data
-/src/data
+tankData.json
 
 # testing
 /coverage
