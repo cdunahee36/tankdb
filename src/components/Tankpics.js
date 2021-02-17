@@ -7,7 +7,7 @@ function Tankspic (props) {
           <div class="container">
             <div class="row">
               <div class="col-sm" id="pic">
-                <p class="display-text">Name: {tank.name} </p> 
+                <p class="display-text" id="dtop">Name: {tank.name} </p> 
                 <p class="display-text">Weight: {tank.weight} </p> 
                 <p class="display-text">Length: {tank.length}</p> 
                 <p class="display-text">Width: {tank.width}</p> 

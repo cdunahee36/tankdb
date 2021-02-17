@@ -36,9 +36,9 @@ function TankSelect(props) {
           {allTanks[9]}
           {allTanks[10]}
           {allTanks[11]}
-          {allTanks[12]}
         </div>
         <div class="col-sm">
+          {allTanks[12]}
           {allTanks[13]}
           {allTanks[14]}
           {allTanks[15]}
@@ -54,7 +54,15 @@ function TankSelect(props) {
           {allTanks[25]}
           {allTanks[26]}
           {allTanks[27]}
+        </div>
+        <div class="col-sm">
           {allTanks[28]}
+          {allTanks[29]}
+          {allTanks[30]}
+          {allTanks[31]}
+          {allTanks[32]}
+          {allTanks[33]}
+          {allTanks[34]}
         </div>
       </div>
     </div>
