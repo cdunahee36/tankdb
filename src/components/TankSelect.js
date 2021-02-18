@@ -63,6 +63,16 @@ function TankSelect(props) {
           {allTanks[32]}
           {allTanks[33]}
           {allTanks[34]}
+          {allTanks[35]}
+          {allTanks[36]}
+          {allTanks[37]}
+          {allTanks[38]}
+          {allTanks[39]}
+          {allTanks[40]}
+          {allTanks[41]}
+          {allTanks[42]}
+          {allTanks[43]}
+          {allTanks[44]}
         </div>
       </div>
     </div>
