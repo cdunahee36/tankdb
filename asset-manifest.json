@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tankdb/static/css/main.241f00fe.chunk.css",
-    "main.js": "/tankdb/static/js/main.c7f6ce1d.chunk.js",
-    "main.js.map": "/tankdb/static/js/main.c7f6ce1d.chunk.js.map",
+    "main.css": "/tankdb/static/css/main.2481286c.chunk.css",
+    "main.js": "/tankdb/static/js/main.fb68aa6c.chunk.js",
+    "main.js.map": "/tankdb/static/js/main.fb68aa6c.chunk.js.map",
     "runtime-main.js": "/tankdb/static/js/runtime-main.8ea0a7b0.js",
     "runtime-main.js.map": "/tankdb/static/js/runtime-main.8ea0a7b0.js.map",
     "static/css/2.69c4045d.chunk.css": "/tankdb/static/css/2.69c4045d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.63115318.chunk.js.map": "/tankdb/static/js/3.63115318.chunk.js.map",
     "index.html": "/tankdb/index.html",
     "static/css/2.69c4045d.chunk.css.map": "/tankdb/static/css/2.69c4045d.chunk.css.map",
-    "static/css/main.241f00fe.chunk.css.map": "/tankdb/static/css/main.241f00fe.chunk.css.map",
+    "static/css/main.2481286c.chunk.css.map": "/tankdb/static/css/main.2481286c.chunk.css.map",
     "static/js/2.46da05b6.chunk.js.LICENSE.txt": "/tankdb/static/js/2.46da05b6.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/tankdb/static/media/arrow_right.0897f985.svg",
     "static/media/all.min.css": "/tankdb/static/media/fa-solid-900.f4f93856.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.8ea0a7b0.js",
     "static/css/2.69c4045d.chunk.css",
     "static/js/2.46da05b6.chunk.js",
-    "static/css/main.241f00fe.chunk.css",
-    "static/js/main.c7f6ce1d.chunk.js"
+    "static/css/main.2481286c.chunk.css",
+    "static/js/main.fb68aa6c.chunk.js"
   ]
 }
