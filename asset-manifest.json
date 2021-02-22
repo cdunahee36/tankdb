@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tankdb/static/css/main.2481286c.chunk.css",
-    "main.js": "/tankdb/static/js/main.d274a186.chunk.js",
-    "main.js.map": "/tankdb/static/js/main.d274a186.chunk.js.map",
+    "main.js": "/tankdb/static/js/main.fb68aa6c.chunk.js",
+    "main.js.map": "/tankdb/static/js/main.fb68aa6c.chunk.js.map",
     "runtime-main.js": "/tankdb/static/js/runtime-main.8ea0a7b0.js",
     "runtime-main.js.map": "/tankdb/static/js/runtime-main.8ea0a7b0.js.map",
     "static/css/2.69c4045d.chunk.css": "/tankdb/static/css/2.69c4045d.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.69c4045d.chunk.css",
     "static/js/2.46da05b6.chunk.js",
     "static/css/main.2481286c.chunk.css",
-    "static/js/main.d274a186.chunk.js"
+    "static/js/main.fb68aa6c.chunk.js"
   ]
 }
