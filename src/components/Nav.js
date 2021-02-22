@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div>
       <nav class="navbar navbar-light" id="nav-color">
-          <Link class="navbar-brand" to="/home">
+          <Link class="navbar-brand" to="/">
             <p><span class="nav-bg">Home</span></p>
           </Link>
           <img src="https://cdn2.bigcommerce.com/server1700/01wp0ckw/products/2624/images/7707/LOGO_LOCO_004__83210.1503522736.500.500.png?c=2" height="50px" width="50px" id="logos"></img>
