@@ -26,7 +26,7 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/">
+          <Route path="/home">
             <Home />
             <div class="container" id="Ui">
               <div class="row">
